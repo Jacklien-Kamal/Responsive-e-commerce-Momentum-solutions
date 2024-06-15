@@ -3,11 +3,10 @@
  1- npm i
  2- npm run dev
 
-Live Preview : (https://666e1d91048ee03a35e87c6d--shiny-tarsier-08972a.netlify.app/)
+Live Preview : (https://666e209b45ad5f55306ab2cd--gentle-faun-d86c99.netlify.app/)
 
 
 github : (https://github.com/Jacklien-Kamal/e-commerce-Momentum-solutions.git)
-Live Preview : (https://666e1d91048ee03a35e87c6d--shiny-tarsier-08972a.netlify.app/)
 
 ● What I have?
     - Header
