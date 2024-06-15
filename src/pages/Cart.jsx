@@ -49,7 +49,7 @@ export default function Cart() {
 
 
   return (
-    <div className="px-10 pb-48 mt-10 h-screen ">
+    <div className="px-10 pb-48 mt-10  m0px] h-[100%] ">
 
       <div className="grid grid-cols-1 gap-10 px-10 lg:px-32 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
         {cartProducts.map((cartProduct, index) => {
