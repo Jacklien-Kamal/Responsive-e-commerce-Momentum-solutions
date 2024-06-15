@@ -25,8 +25,8 @@ export default function Home() {
     <div className="bg-white mt-16">
       <Poster />
 
-      <div className="shadow-md bg-white py-4 px-16 flex items-center justify-center  sticky top-[103px] z-10">
-        <ul className="hidden sm:flex gap-4 text-gray-800 text-lg">
+      <div className="shadow-md bg-white py-4 px-16 flex items-center justify-center sticky top-[80px] sm:top-[80px] xl:top-[103px] z-10">
+        <ul className="text-xs flex md:text-lg gap-4 text-gray-800 text-lg">
           {categories.map((link, indx) => (
             <li key={indx}>
               <a
