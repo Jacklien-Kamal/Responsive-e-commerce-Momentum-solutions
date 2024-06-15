@@ -14,7 +14,7 @@ export default function TopHeader() {
           </span>
 
           <div className="flex items-center ">
-            <ul className="hidden sm:flex gap-1 ">
+            <ul className="hidden lg:flex gap-1 ">
               {navbarLinks.map((link,indx) => (
                 <li key={indx} >
               <a href="#"
