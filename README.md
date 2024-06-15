@@ -1,6 +1,6 @@
 # React + Vite
 
-Live Preview : (https://666e18e6fd6b1ae7515c6c51--deluxe-mermaid-f0a1f1.netlify.app/)
+Live Preview : (https://666e1d91048ee03a35e87c6d--shiny-tarsier-08972a.netlify.app/)
 
 ● What I have?
 
@@ -31,3 +31,7 @@ Live Preview : (https://666e18e6fd6b1ae7515c6c51--deluxe-mermaid-f0a1f1.netlify.
         - product quantity.
         - cart items total count.
         - cart items total price.
+
+● Bonus ?
+    - Sorting Functionality
+    - Responsive Ui
