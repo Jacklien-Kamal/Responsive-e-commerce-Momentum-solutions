@@ -1,9 +1,13 @@
 # React + Vite
+ 
+ 1- npm i
+ 2- npm run dev
 
+
+github : (https://github.com/Jacklien-Kamal/e-commerce-Momentum-solutions.git)
 Live Preview : (https://666e1d91048ee03a35e87c6d--shiny-tarsier-08972a.netlify.app/)
 
 ● What I have?
-
     - Header
     - Footer 
     - Product Listing Page
@@ -11,7 +15,6 @@ Live Preview : (https://666e1d91048ee03a35e87c6d--shiny-tarsier-08972a.netlify.a
     - Add to cart Button
     - Prooduct Card
     - Category Section
-
 
 
 ● CSS frameWork?
