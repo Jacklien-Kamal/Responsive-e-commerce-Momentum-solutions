@@ -1,8 +1,33 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Preview : (https://666e18e6fd6b1ae7515c6c51--deluxe-mermaid-f0a1f1.netlify.app/)
 
-Currently, two official plugins are available:
+● What I have?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - Header
+    - Footer 
+    - Product Listing Page
+    - Product Detail Page
+    - Add to cart Button
+    - Prooduct Card
+    - Category Section
+
+
+
+● CSS frameWork?
+    - Tailwind CSS
+
+● Api ?
+    - I made my own Fake Api on (https://mocki.io/)
+
+
+● React Hooks?
+    - useState()
+    - useEffect()
+
+● Redux ?
+    I used Redux for managing the cart state on:
+        - Add/remove product from cart.
+        - product quantity.
+        - cart items total count.
+        - cart items total price.
