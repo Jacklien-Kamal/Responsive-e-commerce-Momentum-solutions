@@ -19,7 +19,7 @@ export default function CategorySection({ categoryTitle }) {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "https://mocki.io/v1/ca0f59fb-47f1-4549-aa0b-128b7669c7ec"
+          "https://mocki.io/v1/fdbb45f2-8927-48ae-8fae-84ce8f642288"
         );
         setProducts(response.data);
       } catch (error) {
@@ -32,8 +32,9 @@ export default function CategorySection({ categoryTitle }) {
 
   const filteredProducts = products.filter(
     (product) =>
-      product.category.name.toLowerCase() === categoryTitle.toLowerCase()
+      product.category.toLowerCase() === categoryTitle.toLowerCase()
   );
+  console.log(products,categoryTitle, filteredProducts);
 
   const sortProducts = (products, criteria) => {
     switch (criteria) {
@@ -54,7 +55,7 @@ export default function CategorySection({ categoryTitle }) {
 
   return (
     <div id={categoryTitle} className="mx-12 sm:mx-24 py-5">
-      <div className="flex gap-2 items-center px-10 lg:px-32">
+      <div className="flex gap-2 items-center px-10 lg:px-32 ">
         <p className="text-2xl py-3 text-[#383633]">
           {categoryTitle}
         </p>
@@ -73,7 +74,7 @@ export default function CategorySection({ categoryTitle }) {
 
       <div className="grid grid-cols-1 gap-10 px-10 lg:px-32 md:grid-cols-2 xl:grid-cols-3">
         {sortedProducts.map((product, idx) => (
-          <ProductCard key={idx} products={products} product={product} />
+          <ProductCard key={idx}  product={product} />
         ))}
       </div>
       <hr />

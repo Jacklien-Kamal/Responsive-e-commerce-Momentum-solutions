@@ -26,7 +26,7 @@ export default function ProductDetails() {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "https://mocki.io/v1/ca0f59fb-47f1-4549-aa0b-128b7669c7ec"
+          "https://mocki.io/v1/fdbb45f2-8927-48ae-8fae-84ce8f642288"
         );
         setProducts(response.data);
       } catch (error) {
